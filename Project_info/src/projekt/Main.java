@@ -6,6 +6,10 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JMenuBar;
+import java.awt.Button;
+import javax.swing.JLabel;
+import com.jgoodies.forms.factories.DefaultComponentFactory;
 
 public class Main extends JFrame {
 
@@ -31,6 +35,7 @@ public class Main extends JFrame {
 	 * Create the frame.
 	 */
 	public Main() {
+		setTitle("iNf\u00D6");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
